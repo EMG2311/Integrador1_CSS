@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    
+    overflow: auto;
 }
 
 html{
@@ -159,7 +159,7 @@ a{
 }
 #botonContenedorFinal{
     cursor: pointer;
-    border: 1px solid white;
+    border:  0.063em solid white;
     border-radius:0.5em;
     background-color: transparent;
     height: 2em;
@@ -167,15 +167,15 @@ a{
     padding: 0.1em 0.1em 0.1em 0.11em;
     color: white;
     font-size: 1.5em;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0.375em 0.375em rgba(0, 0, 0, 0.6);
 }
 
 
 .contenedorForm{
-  height: 30em;
+  height: 37em;
   display: block;
-  justify-content: center
-  
+  justify-content: center;
+  overflow: hidden;
 
 }
 .tituloForm{
@@ -187,6 +187,7 @@ a{
   word-wrap: break-word;
   position: relative;
   margin: 1em auto;
+  overflow: hidden;
 }
 .input1{
   position: relative;
@@ -197,6 +198,7 @@ a{
   align-items: center;
   border-radius:0.5em;
   border: 0.063em solid #D3D3D3;
+  overflow: hidden;
 }
 .input2{
   position: relative;
@@ -206,6 +208,7 @@ a{
   align-items: center;
   border-radius:0.5em;
   border: 0.063em solid #D3D3D3;
+  overflow: hidden;
 
 }
 .textarea{
@@ -217,6 +220,7 @@ a{
  border-radius:0.5em;
  border: 0.063em solid #D3D3D3;
 
+ overflow: hidden;
 }
 
 .buttonForm{
@@ -231,10 +235,11 @@ a{
 
 }
 
-
+.overflow{
+  overflow: hidden;
+}
 
 .contenedorFooter{
-  margin-top: 2em;
   background-color: #1e516e;
   height: 8em;
   display: flex;
@@ -253,7 +258,7 @@ a{
   margin:2em 5em 2em 5em;
   clear:both;
   float:left;
-  color: white
+  color: white;
 }
 
 .TextolinksFooter{
