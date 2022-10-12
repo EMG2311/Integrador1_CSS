@@ -22,3 +22,10 @@ else{
 total.value="Total a Pagar: $"+num;
 }
 
+function borrar(){
+    let cantidad=document.getElementById("cantidadTicket");
+    cantidad="";
+    let total=document.getElementById("TotalPagar");
+    total="Total a Pagar: $";
+}
+
