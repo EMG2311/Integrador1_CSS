@@ -27,5 +27,11 @@ function borrar(){
     cantidad="";
     let total=document.getElementById("TotalPagar");
     total="Total a Pagar: $";
+    let nombre=document.getElementById("nombre");
+    nombre="";
+    let apellido=document.getElementById("apellido");
+    apellido="";
+    let email=document.getElementById("email");
+    email="";
 }
 
