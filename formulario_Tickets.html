@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="stylesheet" href="CSS/estilosTickets.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+
+<body>
+    <div class="px-3 py-2 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+              <img  class="bi me-2" src="Imagenes/codoacodo.png" width="100" height="50" >
+              <p style="font-size:180%;">
+              Conf Bs As
+              </p>
+            </a>
+            
+         
+             </h1>
+  
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+              <li>
+                <a class="nav-link text-secondary" href="">
+                  La conferencia
+                </a>
+              </li>
+              <li>
+                <a class="nav-link text-white" href="">
+
+                  Los oradores
+                </a>
+              </li>
+              <li>
+                <a class="nav-link text-white" href="">
+                  Lugar y la fecha
+                </a>
+              </li>
+              <li>
+                <a class="nav-link text-white" href="">
+
+                  Conviertete en orador
+                </a>
+              </li>
+              <li>
+                <a  class="nav-link text-green" style="color: green;" href="/Integrador1/formulario_Tickets.html">
+
+                  Compra tickets
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="formulario_Tickets">
+        <div class="divDescuentos">
+          <div class="divEstudiante">
+            <p class=" texto titulosDescuentos">Estudiante</p>
+            <p class="texto textoDescuento">Tiene un descuento</p>
+            <p class="texto porcentajeDescuento">80%</p>
+            <p class="texto textoDocumentacionDescuento">*presentar documentacion</p>
+          </div>
+          <div class="divEstudiante divTrainee">
+            <p class=" texto titulosDescuentos">Trainee</p>
+            <p class="texto textoDescuento">Tiene un descuento</p>
+            <p class="texto porcentajeDescuento">50%</p>
+            <p class="texto textoDocumentacionDescuento">*presentar documentacion</p>
+          </div>
+          <div class="divEstudiante divJunior">
+            <p class=" texto titulosDescuentos">Junior</p>
+            <p class="texto textoDescuento">Tiene un descuento</p>
+            <p class="texto porcentajeDescuento">15%</p>
+            <p class="texto textoDocumentacionDescuento">*presentar documentacion</p>
+          </div>
+        </div>
+        <form class="FormularioTickets">
+          <p style="text-align: center; font-family: fantasy;">Venta</p>
+          <h1 style="text-align: center; overflow: hidden; font-family: fantasy;">VALOR DE TICKET $200</h1>
+          <input type="text" id="nombre" class="inputNombre" placeholder="Nombre">
+          <input type="text" id="apellido" class="inputNombre inputApellido" placeholder="Apellido"><br>
+          <input type="email" id="email" class="inputCorreo">
+          <div style="display: flex; flex-direction: row;font-family:fanatasy; font-size: 1.5em;">         
+            <p>Cantidad</p>
+            <p style="margin-left:45.5% ;"></p>Categoria</p>
+          </div>
+      
+          <input type="number" id="cantidadTicket" class="inputNombre selectCategoria">
+          <select class="inputNombre inputApellido selectCategoria" id="categoriaTicket">
+            <option value="Estudiante">Estudiante</option>
+            <option value="Trainee">Trainee</option>
+            <option value="Junior">Junior</option>
+          </select>
+          <input id="TotalPagar" class="inputCorreo inputTotal" value="Total a Pagar: $" readonly>
+
+          <button id="buttonBorrar" class="botonesFormTickets" style="margin-left:0% ;">Borrar</button>
+          <input type="button" id="buttonResumen" class="botonesFormTickets" onclick="resumen()" value="Resumen">
+        </form>
+
+
+
+      </div>
+
+
+
+
+
+      <div class="contenedorFooter">
+        
+        <div class="linkFooter">
+          <a href="" class="TextolinksFooter">Preguntas frecuentes</a>
+        </div >
+        <div class="linkFooter">
+          <a href="" class="TextolinksFooter">Contactanos</a>
+        </div>
+        <div class="linkFooter">
+          <a href="" class="TextolinksFooter">Prensa</a>
+        </div>
+        <div class="linkFooter">
+          <a href="" class="TextolinksFooter">Conferencias</a>
+        </div>
+        <div class="linkFooter">
+          <a href="" class="TextolinksFooter">Terminos y condiciones</a>
+        </div>
+        <div class="linkFooter">
+          <a href="" class="TextolinksFooter">Privacidad</a>
+        </div>
+        
+
+
+  </div>
+
+  <script type="text/javascript" src="js/Tickets.js"></script>
+</body>
+</html>

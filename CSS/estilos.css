@@ -55,7 +55,7 @@ a{
   color: white;
 }
 
-#botonCajaSup1{
+.botonCajaSup1{
   cursor: pointer;
   border: 0.063em solid white;
   border-radius:0.5em;
@@ -66,7 +66,7 @@ a{
   font-size: 1.5em;
   box-shadow: 0 0.375em 0.375em rgba(0, 0, 0, 0.6);
 }
-#botonCajaSup2{
+.botonCajaSup2{
   cursor: pointer;
   border: 0.063em solid #29a744;
   border-radius:0.5em;
@@ -265,3 +265,6 @@ a{
   color: white;
   font-size: 1.1em
 }
+
+
+
